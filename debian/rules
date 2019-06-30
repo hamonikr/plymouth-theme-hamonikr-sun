@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+# 
+# Utility for HamoniKR Desktop Linux (HamoniKR)
+# Copyright (C) 2015-2019 HamoniKR Team, Kevin Kim <root@hamonikr.org>
+#
+# This file may be used under the terms of the GNU General Public License, version 2 or later.
+# For more details see: https://www.gnu.org/licenses/gpl-2.0.html
+
+override_dh_installgsettings:
+	dh_installgsettings --priority=20
+
+%:
+	dh $@

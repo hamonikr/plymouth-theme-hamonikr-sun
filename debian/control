@@ -1,0 +1,27 @@
+Source: plymouth-theme-hamonikr-sun
+Section: misc
+Priority: optional
+Maintainer: Kevin Kim <root@hamonikr.org>
+Standards-Version: 1.0.0
+
+Package: plymouth-theme-hamonikr-sun-logo
+Priority: important
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-label
+Provides: plymouth-theme
+Description: graphical boot animation and logger for HamoniKR
+ provides a graphical boot animation while the boot process happens in the background.
+ .
+ This package contains the default hamonikr plymouth theme.
+
+Package: plymouth-theme-hamonikr-sun-text
+Architecture: all
+Depends: ${misc:Depends}, plymouth, plymouth-theme-hamonikr-sun-text
+Provides: plymouth-theme
+Replaces: plymouth (<< 0.8.1-1~)
+Breaks: plymouth (<< 0.9.2-3ubuntu1~),
+Description: graphical boot animation and logger for HamoniKR
+ provides a graphical boot animation while the boot process happens in the background.
+ .
+ This package contains the default hamonikr plymouth theme  used when no
+ support for a graphical theme is found on your system.

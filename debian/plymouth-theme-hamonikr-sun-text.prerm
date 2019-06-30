@@ -1,0 +1,17 @@
+#!/bin/sh
+# Utility for HamoniKR Desktop Linux (HamoniKR)
+# Copyright (C) 2015-2019 HamoniKR Team, Kevin Kim <root@hamonikr.org>
+#
+# This file may be used under the terms of the GNU General Public License, version 2 or later.
+# For more details see: https://www.gnu.org/licenses/gpl-2.0.html
+
+set -e
+
+if [ "x$1" = xremove ]; then
+	update-alternatives \
+		--remove text.plymouth /usr/share/plymouth/themes/hamonikr-sun-text/hamonikr-sun-text.plymouth
+
+	rm -f /usr/share/plymouth/themes/hamonikr-sun-text/hamonikr-sun-text.plymouth
+fi
+
+#DEBHELPER#

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=hamonikr
+Description=HamoniKR Plymouth Theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/hamonikr-sun-logo
+ScriptFile=/usr/share/plymouth/themes/hamonikr-sun-logo/hamonikr-sun-logo.script
