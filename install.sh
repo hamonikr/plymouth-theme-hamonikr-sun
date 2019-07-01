@@ -33,7 +33,7 @@ else
   	echo -e "${Text}Please Wait Until Installing Complete"
   	echo -e "${NC}Configuring All HamoniKR Plymouth"
   sleep 1.5
-  	update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/hamonikr-sun-logo/hamonikr.plymouth 50
+  	update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/hamonikr-sun-logo/hamonikr-sun-logo.plymouth 50
   	
   	echo -e "${Text}All HamoniKR SUN Plymouth Theme Configured"
   sleep 1.5
