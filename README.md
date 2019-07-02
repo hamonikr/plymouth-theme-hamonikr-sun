@@ -1,4 +1,4 @@
-# hamonikr-plymouth-theme
+# plymouth-theme-hamonikr-sun-logo , plymouth-theme-hamonikr-sun-text
 
 plymouth-theme for HamoniKR-SUN
 
